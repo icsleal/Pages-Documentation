@@ -1,0 +1,70 @@
+* {
+  background-color: rgb(211, 211, 205);
+}
+
+body {
+  display: flex;
+}
+/**barra de navegação, onde fica os links**/
+#navbar {
+  padding-top: 20px;
+  border-right: solid gray;
+  position: fixed;
+  height: 100rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(104, 46, 46);
+  line-height: 20px;
+  font-size: 20px;
+}
+/** ul  recebeu a class apenas estilizar esse da navlink **/
+.nav-links {
+  list-style: none;
+  line-height: 66px;
+  padding-left: 4px;
+  padding-right: 3rem;
+  text-align: center;
+  font-size: 24px;
+}
+
+/**Principal**/
+#main-doc {
+  padding-left: 14rem;
+  display: block;
+}
+
+.main-section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-section,
+p {
+  color: rgb(121, 113, 113);
+  font-size: 17px;
+  padding-left: 30px;
+  font-size: 17px;
+
+  line-height: 20px;
+}
+
+header {
+  font-size: 18px;
+  padding-left: 10px;
+  color: black;
+  font-size: 24px;
+}
+
+code {
+  background-color: rgb(229, 233, 202);
+  font-size: 13px;
+  font-size: 12px;
+}
+
+@media (min-width: 788px) {
+  .nav-links {
+    max-width: 1130px;
+  }
+}
